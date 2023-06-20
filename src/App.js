@@ -7,12 +7,13 @@ import AddPhoto from "./routes/AddPhoto";
 import NotFound from "./routes/NotFound";
 
 const App = () => {
+  console.log("Hello hehehehe");
   return (
     <>
       <div className="navbar">
         <div className="studentInfo">
           {/* TODO: answer here */}
-          <h2 className="studentName">Pratama</h2>
+          <h2 className="studentName">Shanks</h2>
           <p className="studentId">FE9999</p>
         </div>
         <Link to="/">Home</Link>
